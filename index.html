@@ -4,15 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Retriever Page</title>
+    <title>MS150 Info Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Welcome to the Golden Retriever Page</h1>
-    <p>This is a sample paragraph about golden retrievers. They are friendly, intelligent, and devoted dogs, making them
-        one of the most popular breeds in the United States.</p>
-    <img src="images/golden-retrievers-public-domain.jpg" alt="Golden Retriever" class="golden-img">
+    <h1>Welcome to MS150 Info Page</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Day1.html">Route Day 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Day2.html">Route Day 2</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<hr class="divider">
+    <div class="img-text-container">
+        <img src="images/group.jpg" alt="TeamHess" title="© 2025 Aljoscha Puchstein. All rights reserved." class="ms150-img">
+        <div class="main-text">
+            <p>The Texas MS150 is one of the most prominent charity bike rides in the United States and is hosted by the National Multiple Sclerosis Society. For decades, the event has brought together thousands of cyclists of all levels who ride side by side to raise millions of dollars for research, advocacy, and support services that directly benefit people living with multiple sclerosis. The route covers approximately 150 miles and is supported by multiple starting points, rest stops every 10 to 12 miles, and an enthusiastic network of volunteers. More than just a test of endurance, the MS150 has become a two day journey of community and purpose that unites riders, families, and supporters in a shared mission to end MS.</p>
+            <p>The event began in 1985 with just over 200 participants and quickly grew into one of the premier cycling traditions in Texas. The original Houston to Austin route became iconic, gaining national recognition and attracting thousands of riders year after year. As the event expanded in size and scope, organizers introduced new route options and adjusted logistics to better accommodate the growing crowds. These changes ensured that the ride could continue to thrive while upholding its mission of raising funds for critical research and providing hope for those affected by multiple sclerosis. The combination of athletic challenge and humanitarian purpose has helped the MS150 stand apart as both a sporting event and a movement for change.</p>
+            <p>Today the Texas MS150 concludes at Kyle Field in College Station, offering riders a dramatic and unforgettable finish to their two day adventure. After camping overnight in La Grange, cyclists push through the rolling hills of Central Texas and arrive at the Texas A&M campus, where thousands of cheering supporters line the finish. Music, food, and celebration fill the stadium atmosphere as riders cross the line together, reflecting on the miles behind them and the impact of their efforts. While the destination has shifted from Austin to College Station, the spirit of the MS150 remains unchanged. It continues to serve as a powerful symbol of determination, solidarity, and progress, raising hundreds of millions of dollars and inspiring communities across Texas and beyond.</p>
+            <hr class="divider">
+        </div>
+    </div>
+
+
+    <h2>Volunteer Signup</h2>
+    <form class="volunteer-form" action="#" method="post">
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Volunteer Location(s):</label><br>
+        <input type="checkbox" id="bellville" name="location" value="bellville">
+        <label for="bellville">Bellville Lunch Stop</label><br>
+        <input type="checkbox" id="lagrange" name="location" value="lagrange">
+        <label for="lagrange">La Grange Dinner</label><br>
+        <input type="checkbox" id="lakesomerville" name="location" value="lakesomerville">
+        <label for="lakesomerville">Lake Somerville Lunch Stop</label><br>
+        <input type="checkbox" id="collegestation" name="location" value="collegestation">
+        <label for="collegestation">College Station</label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+    
+
 </body>
 
 </html>

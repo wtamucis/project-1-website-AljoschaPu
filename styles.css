@@ -1,4 +1,84 @@
-.golden-img {
-    max-width: 50%;
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    list-style: none;
+}
+.navbar-nav .nav-item {
+    margin: 0;
+}
+
+
+.ms150-img {
+    width: 100%;
+    max-width: 500px;
     height: auto;
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+
+.img-text-container {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text {
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.main-text p {
+    width: 100%;
+    margin: 0 0 1em 0;
+}
+
+* {
+    background-color: orange;
+    color: black;
+}
+
+h1, h2, li {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+li {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.volunteer-form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+input, select, textarea {
+    background-color: #fff;
+}
+
+hr.divider {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-top: 2px solid #333;
+    padding: 5px;
 }
